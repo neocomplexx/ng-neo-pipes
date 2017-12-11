@@ -41,9 +41,8 @@ Once library is imported, you can use its pipes in your Angular application:
 ```xml
 <!-- You can now use pipes in app.component.html -->
 <h1>
-  {{title}}
+  {{title | beautify}}
 </h1>
-<sampleComponent></sampleComponent>
 ```
 
 ## License
