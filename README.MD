@@ -34,15 +34,24 @@ import { NeoPipesModule } from 'ng-neo-pipes';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-```
 
-Once library is imported, you can use its pipes in your Angular application:
+// Import library in child modules to use pipes
+import { NeoPipesModule } from 'ng-neo-pipes';
 
-```xml
-<!-- You can now use pipes in app.component.html -->
-<h1>
-  {{title | beautify}}
-</h1>
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule,
+
+    // Specify library as an import
+    NeoPipesModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class ChildModule { }
 ```
 
 ## License
