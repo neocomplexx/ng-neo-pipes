@@ -1,0 +1,28 @@
+{
+  "name": "ng-neo-pipes",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neocomplexx/ng-neo-pipes"
+  },
+  "author": {
+    "name": "Sebastian Larrieu",
+    "email": "slarriue@neocomplexx.com"
+  },
+  "keywords": [
+    "angular","pipes"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neocomplexx/ng-neo-pipes/issues"
+  },
+  "main": "ng-neo-pipes.umd.js",
+  "module": "ng-neo-pipes.js",
+  "jsnext:main": "ng-neo-pipes.js",
+  "typings": "ng-neo-pipes.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
+  }
+}
