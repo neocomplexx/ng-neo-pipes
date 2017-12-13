@@ -1,0 +1,829 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>ng-neo-pipes</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	    <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">ng-neo-pipes</a>
+            <button type="button" class="btn btn-default btn-menu fa fa-bars" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+            <div id="book-search-input" role="search">
+                <input type="text" placeholder="Type to search">
+            </div>
+            <nav>
+            
+                <ul class="list">
+            
+                    <li class="title">
+                        <a href="../index.html">ng-neo-pipes</a>
+                    </li>
+            
+                    <li class="divider"></li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../index.html"><span class="fa fa-home"></span>Getting started</a>
+                        <ul class="links">
+                                <li class="link">
+                                    <a 
+                                        
+                                         href="../overview.html" 
+                                         href="../overview.html" 
+                                        >
+                                        <span class="fa fa-th"></span>Overview
+                                    </a>
+                                </li>
+                                <li class="link">
+                                  <a href="../index.html" ><span class="fa fa-file-text-o"></span>README</a>
+                                </li>
+                                <li class="link">
+                                        <a href="../license.html"
+                                    >
+                                        <span class="fa fa-file-text-o"></span>LICENSE
+                                    </a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../modules.html" >
+                            <div class="menu-toggler linked" data-toggle="collapse"
+                                    data-target="#xs-modules-links"
+                            >
+                                <span class="fa fa-archive"></span>
+                                <span class="link-name">Modules</span>
+                                <span class="fa fa-angle-down"></span>
+                            </div>
+                        </a>
+                        <ul class="links collapse "
+                                id="xs-modules-links"
+                            >
+                                <li class="link">
+                                    <a href="../modules/AppModule.html" >AppModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../modules/NeoPipesModule.html" >NeoPipesModule</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-components-links"
+                            >
+                            <span class="fa fa-cogs"></span>
+                            <span>Components</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-components-links"
+                            >
+                                <li class="link">
+                                    <a href="../components/AppComponent.html" >AppComponent</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-injectables-links"
+                            >
+                            <span class="fa fa-long-arrow-down"></span>
+                            <span>Injectables</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-injectables-links"
+                            >
+                                <li class="link">
+                                    <a href="../injectables/DatePipe.html" >DatePipe</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../injectables/DatePipe.html" >DatePipe</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../injectables/NumberPipe.html" >NumberPipe</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../injectables/NumberPipe.html" >NumberPipe</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../injectables/NumberPipeTwoLevel.html" >NumberPipeTwoLevel</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../injectables/NumberPipeTwoLevel.html" >NumberPipeTwoLevel</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../injectables/RangePipe.html" >RangePipe</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../injectables/RangePipe.html" >RangePipe</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../injectables/RangePipeTwoLevel.html"  data-type="entity-link" class="active" >RangePipeTwoLevel</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../injectables/RangePipeTwoLevel.html" >RangePipeTwoLevel</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../injectables/TextPipe.html" >TextPipe</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../injectables/TextPipe.html" >TextPipe</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../injectables/TextPipeTwoLevel.html" >TextPipeTwoLevel</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../injectables/TextPipeTwoLevel.html" >TextPipeTwoLevel</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-pipes-links"
+                            >
+                            <span class="fa fa-plus"></span>
+                            <span>Pipes</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-pipes-links"
+                            >
+                                <li class="link">
+                                    <a href="../pipes/BeautifyPipe.html" >BeautifyPipe</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../coverage.html" ><span class="fa fa-tasks"></span>Documentation coverage</a>
+                    </li>
+            
+            
+                </ul>
+            
+            </nav>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <nav>
+                   
+                       <ul class="list">
+                   
+                           <li class="title">
+                               <a href="../index.html">ng-neo-pipes</a>
+                           </li>
+                   
+                           <li class="divider"></li>
+                   
+                               <div id="book-search-input" role="search">
+                                   <input type="text" placeholder="Type to search">
+                               </div>
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../index.html"><span class="fa fa-home"></span>Getting started</a>
+                               <ul class="links">
+                                       <li class="link">
+                                           <a 
+                                               
+                                                href="../overview.html" 
+                                                href="../overview.html" 
+                                               >
+                                               <span class="fa fa-th"></span>Overview
+                                           </a>
+                                       </li>
+                                       <li class="link">
+                                         <a href="../index.html" ><span class="fa fa-file-text-o"></span>README</a>
+                                       </li>
+                                       <li class="link">
+                                               <a href="../license.html"
+                                           >
+                                               <span class="fa fa-file-text-o"></span>LICENSE
+                                           </a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../modules.html" >
+                                   <div class="menu-toggler linked" data-toggle="collapse"
+                                           data-target="#modules-links"
+                                   >
+                                       <span class="fa fa-archive"></span>
+                                       <span class="link-name">Modules</span>
+                                       <span class="fa fa-angle-down"></span>
+                                   </div>
+                               </a>
+                               <ul class="links collapse "
+                                       id="modules-links"
+                   >
+                                       <li class="link">
+                                           <a href="../modules/AppModule.html" >AppModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../modules/NeoPipesModule.html" >NeoPipesModule</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#components-links"
+                   >
+                                   <span class="fa fa-cogs"></span>
+                                   <span>Components</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="components-links"
+                   >
+                                       <li class="link">
+                                           <a href="../components/AppComponent.html" >AppComponent</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#injectables-links"
+                   >
+                                   <span class="fa fa-long-arrow-down"></span>
+                                   <span>Injectables</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="injectables-links"
+                   >
+                                       <li class="link">
+                                           <a href="../injectables/DatePipe.html" >DatePipe</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../injectables/DatePipe.html" >DatePipe</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../injectables/NumberPipe.html" >NumberPipe</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../injectables/NumberPipe.html" >NumberPipe</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../injectables/NumberPipeTwoLevel.html" >NumberPipeTwoLevel</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../injectables/NumberPipeTwoLevel.html" >NumberPipeTwoLevel</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../injectables/RangePipe.html" >RangePipe</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../injectables/RangePipe.html" >RangePipe</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../injectables/RangePipeTwoLevel.html"  data-type="entity-link" class="active" >RangePipeTwoLevel</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../injectables/RangePipeTwoLevel.html" >RangePipeTwoLevel</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../injectables/TextPipe.html" >TextPipe</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../injectables/TextPipe.html" >TextPipe</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../injectables/TextPipeTwoLevel.html" >TextPipeTwoLevel</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../injectables/TextPipeTwoLevel.html" >TextPipeTwoLevel</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#pipes-links"
+                   >
+                                   <span class="fa fa-plus"></span>
+                                   <span>Pipes</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="pipes-links"
+                   >
+                                       <li class="link">
+                                           <a href="../pipes/BeautifyPipe.html" >BeautifyPipe</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../coverage.html" ><span class="fa fa-tasks"></span>Documentation coverage</a>
+                           </li>
+                   
+                   
+                       </ul>
+                   
+                   </nav>
+               </div>
+               <div class="content injectable">
+                   <div class="content-data">
+
+
+
+
+
+
+<ol class="breadcrumb">
+  <li>Injectables</li>
+  <li>RangePipeTwoLevel</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+    <li class="active">
+        <a href="#info" id="info-tab" role="tab" data-toggle="tab" data-link="info">Info</a>
+    </li>
+
+
+    <li>
+        <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+    </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info">
+        <p class="comment">
+            <h3>File</h3>
+        </p>
+        <p class="comment">
+            <code>src/filters.pipe.ts</code>
+        </p>
+
+
+
+            <section>
+                <h3 id="index">Index</h3>
+                <table class="table table-sm table-bordered index-table">
+                    <tbody>
+                        <tr>
+                            <td class="col-md-4">
+                                <h6><b>Methods</b></h6>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <ul class="index-list">
+                                    <li>
+                                        <a href="#transform">transform</a>
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h3 id="constructor">Constructor</h3>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <code>Object()</code>
+                                </td>
+                            </tr>
+            
+                        </tbody>
+                    </table>
+            </section>
+
+            <section>
+                
+                    <h3 id="methods">
+                        Methods
+                    </h3>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="transform"></a>
+                                    <span class="name">
+                                        <b>
+                                        transform
+                                        </b>
+                                        <a href="#transform"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+            <code>transform(items: any[], firstField: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, secondField: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, value: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="172" class="link-to-prism">src/filters.pipe.ts:172</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+            
+                                        <div class="io-description">
+                                                <b>Parameters :</b>
+                                                <table class="params">
+                                                    <thead>
+                                                        <tr>
+                                                            <td>Name</td>
+                                                            <td>Type</td>
+                                                            <td>Optional</td>
+                                                            <td>Description</td>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                            <tr>
+                                                              <td>items</td>
+                                                              <td>
+                                                                      <code>any[]</code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td><p>arreglo a filtrar</p>
+            </td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td>firstField</td>
+                                                              <td>
+                                                                      <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td><p>primer nivel de indireccion. Nombre de la variable de primer nivel</p>
+            </td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td>secondField</td>
+                                                              <td>
+                                                                      <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td><p>segundo nivel de indireccion, nombre de la variable de cada item que se comparara con value</p>
+            </td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td>value</td>
+                                                              <td>
+                                                                      <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td><p>valor por del rango por el cual se filtrara el arreglo</p>
+            </td>
+                                                            </tr>
+                                                    </tbody>
+                                                </table>
+                                        </div>
+                                        <div>
+                                        </div>
+                                        <div class="io-description">
+                                            <b>Returns : </b>    <code>any[]</code>
+            
+                                        </div>
+                                            <div class="io-description">
+                                                
+                                            </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </section>
+
+
+    </div>
+
+
+    <div class="tab-pane fade tab-source-code" id="c-source">
+        <pre class="line-numbers"><code class="language-typescript">import { Pipe, PipeTransform, Injectable } from &#x27;@angular/core&#x27;;
+
+/**
+ * 
+ * @author jcangelosi
+ */
+
+
+ /**
+  * Filter object array from property
+  */
+@Pipe({
+    name: &#x27;textFilter&#x27;
+})
+@Injectable()
+export class TextPipe implements PipeTransform {
+    /**
+     * @author jcangelosi
+     * Filtra el arreglo items comparando el valor de su campo field (de tipo string) con el valor de value
+     * idea general : items.field &#x3D;&#x3D; value
+     * NO FUNCIONA CON NUMEROS
+     * @param items arreglo a filtrar
+     * @param field nombre de la variable que se quiere compara para filtrar
+     * @param value valor por el cual se filtrara el arreglo
+     */
+    transform(items: any[], field: string, value: string): any[] {
+        if (!items) {
+            return [];
+        }
+        if (!field || !value) {
+            return items;
+        }
+        return items.filter(singleItem &#x3D;&gt; singleItem[field].toLowerCase().includes(value.toLowerCase()));
+    }
+}
+/**
+ * Array filter with string value with 2 indirection level
+ */
+@Pipe({
+    name: &#x27;textFilter2Level&#x27;
+})
+@Injectable()
+export class TextPipeTwoLevel implements PipeTransform {
+    /**
+     * @author jcangelosi
+     * Filtra el arreglo items comparando el valor de su campo secondfield con el valor de value
+     * idea general : items.field.secondField &#x3D;&#x3D; value
+     * NO FUNCIONA CON NUMEROS
+     * @param items arreglo a filtrar
+     * @param firstField primer nivel de indireccion
+     * @param secondField segundo nivel de indireccion, valor del campo de cada item que se comparara con value
+     * @param value valor por el cual se filtrara el arreglo
+     */
+    transform(items: any[], firstField: string, secondField: string, value: string): any[] {
+
+        if (!items) {
+            return [];
+        }
+        if (!firstField || !secondField || !value) {
+            return items;
+        }
+        return items.filter(singleItem &#x3D;&gt; (singleItem[firstField][secondField]).toLowerCase().includes(value.toLowerCase()));
+    }
+}
+
+@Pipe({
+    name: &#x27;numberFilter&#x27;
+})
+@Injectable()
+export class NumberPipe implements PipeTransform {
+     /**
+     * @author jcangelosi
+     * Filtra el arreglo items comparando el valor de su campo field (de tipo number) con el valor de value
+     * idea general : items.field &#x3D;&#x3D; value
+     * SOLO FUNCIONA CON NUMEROS
+     * @param items arreglo a filtrar
+     * @param field valor del campo de cada item que se comparara con value
+     * @param value valor por el cual se filtrara el arreglo
+     */
+    transform(items: any[], field: string, value: number): any[] {
+        if (!items) {
+            return [];
+        }
+        if (!field || !value) {
+            return items;
+        }
+        return items.filter(singleItem &#x3D;&gt; singleItem[field].toString().includes(value.toString()));
+    }
+}
+
+@Pipe({
+    name: &#x27;numberFilter2Level&#x27;
+})
+@Injectable()
+export class NumberPipeTwoLevel implements PipeTransform {
+    /**
+     * @author jcangelosi
+     * Filtra el arreglo items comparando el valor de su campo secondfield con el valor de value
+     * idea general : items.field.secondField &#x3D;&#x3D; value
+     * SOLO FUNCIONA CON NUMEROS
+     * @param items arreglo a filtrar
+     * @param firstField primer nivel de indireccion
+     * @param secondField segundo nivel de indireccion, valor del campo de cada item que se comparara con value
+     * @param value valor por el cual se filtrara el arreglo
+     */
+    transform(items: any[], firstField: string, secondField: string, value: number): any[] {
+        if (!items) {
+            return [];
+        }
+        if (!firstField || !secondField || !value) {
+            return items;
+        }
+        return items.filter(singleItem &#x3D;&gt; singleItem[firstField][secondField].toString().includes(value.toString()));
+    }
+}
+
+@Pipe({
+    name: &#x27;rangeFilter&#x27;
+})
+@Injectable()
+export class RangePipe implements PipeTransform {
+    /**
+     * @author jcangelosi
+     *  Filtrara el arreglo en base a un rango de valores numericos dentro de un string
+     *  Acepta lo siguiente: &lt;numero, numero1-numero2 (&gt;&#x3D;numero1 y &lt;numero2), &gt;&#x3D;numero2
+     * @param items arreglo a filtrar
+     * @param field nombre de la variable del item que se quiere comparar para filtrar
+     * @param value rango por el cual se quiere filtrar
+     */
+    transform(items: any[], field: string, value: string): any[] {
+        if (!items) {
+            return [];
+        }
+        if (!field || !value) {
+            return items;
+        }
+        if (value.toString().includes(&#x27;&lt;&#x27;)) { // Caso 1: es menor
+          const numeros &#x3D; value.split(&#x27;&lt;&#x27;);
+          const numero: number &#x3D; +numeros[1];
+          return items.filter(singleItem &#x3D;&gt; singleItem[field] &lt; numero);
+        }
+        if (value.toString().includes(&#x27;-&#x27;)) { // Caso 2: Rango
+          const numeros &#x3D; value.split(&#x27;-&#x27;);
+          const numero1: number &#x3D; + numeros[0];
+          const numero2: number &#x3D; + numeros[1];
+          return items.filter(singleItem &#x3D;&gt; singleItem[field] &gt;&#x3D; numero1 &amp;&amp; singleItem[field] &lt; numero2);
+        }
+        if (value.toString().includes(&#x27;&gt;&#x3D;&#x27;)) { // Caso 3: Mayor o Igual
+          const numeros &#x3D; value.split(&#x27;&gt;&#x3D;&#x27;);
+          const numero: number &#x3D; + numeros[1];
+          return items.filter(singleItem &#x3D;&gt; singleItem[field] &gt;&#x3D; numero);
+        }
+        // Caso 4, item vacio
+        return items;
+    }
+}
+
+@Pipe({
+    name: &#x27;rangeFilter2Level&#x27;
+})
+@Injectable()
+export class RangePipeTwoLevel implements PipeTransform {
+    /**
+     * @author jcangelosi
+     * Filtra el arreglo items comparando el valor de su campo secondfield en base a un rango de valores numericos dentro de un string
+     *  Acepta lo siguiente: &lt;numero, numero1-numero2 (&gt;&#x3D;numero1 y &lt;numero2), &gt;&#x3D;numero2
+     * @param items arreglo a filtrar
+     * @param firstField primer nivel de indireccion. Nombre de la variable de primer nivel
+     * @param secondField segundo nivel de indireccion, nombre de la variable de cada item que se comparara con value
+     * @param value valor por del rango por el cual se filtrara el arreglo
+     */
+    transform(items: any[], firstField: string, secondField: string, value: string): any[] {
+        if (!items) {
+            return [];
+        }
+        if (!firstField || !secondField || !value) {
+            return items;
+        }
+        if (value.toString().includes(&#x27;&lt;&#x27;)) { // Caso 1: es menor
+          const numeros &#x3D; value.split(&#x27;&lt;&#x27;);
+          const numero: number &#x3D; +numeros[1];
+          return items.filter(singleItem &#x3D;&gt; singleItem[firstField][secondField]  &lt; numero);
+        }
+        if (value.toString().includes(&#x27;-&#x27;)) { // Caso 2: Rango
+          const numeros &#x3D; value.split(&#x27;-&#x27;);
+          const numero1: number &#x3D; + numeros[0];
+          const numero2: number &#x3D; + numeros[1];
+          return items.filter(singleItem &#x3D;&gt; singleItem[firstField][secondField]  &gt;&#x3D; numero1 &amp;&amp;
+                                singleItem[firstField][secondField]  &lt; numero2);
+        }
+        if (value.toString().includes(&#x27;&gt;&#x27;)) { // Caso 3: Mayor o Igual
+          const numeros &#x3D; value.split(&#x27;&gt;&#x27;);
+          const numero: number &#x3D; + numeros[1];
+          return items.filter(singleItem &#x3D;&gt; singleItem[firstField][secondField] &gt;&#x3D; numero);
+        }
+        // Caso 4, item vacio
+        return items;
+    }
+}
+
+@Pipe({
+    name: &#x27;dateFilter&#x27;
+})
+@Injectable()
+/**
+ * Filtrara arreglos mediante un los valores de un campo de tipo fecha
+ */
+export class DatePipe implements PipeTransform {
+    /**
+     * @author jcangelosi
+     * Filtrara el arreglo items por una fecha representada por un string
+     * @param items arreglo de items a filtrar
+     * @param field nombre de la variable de tipo date
+     * @param value fecha representada en un string en formato interno de dd-mm-aaaa
+     */
+    transform(items: string[], field: string, value: string): any[] {
+      if (!items) {
+          return [];
+      }
+      if (!field || !value) {
+          return items;
+      }
+      // caso contrario la fecha es valida
+      const valores: String[] &#x3D; value.split(&#x27;-&#x27;);
+      const fecha: String &#x3D; valores[2] + &#x27;/&#x27; + valores[1] + &#x27;/&#x27; + valores[0] ;
+      return items.filter(singleItem &#x3D;&gt; singleItem[field].toLowerCase().includes(fecha));
+    }
+}
+/**
+ * Pipe que se utiliza para separar los string de los nombres de los enumerables por palabra, de manera que queden mas agradables
+ * visualmente.
+ */
+@Pipe({ name: &#x27;beautify&#x27; })
+export class BeautifyPipe implements PipeTransform {
+  transform(text: string) {
+      if ( text) {
+        const palabras: string [] &#x3D; text.split(/(?&#x3D;[A-Z])/);
+        let palabraAretornar: string &#x3D; &#x27;&#x27;;
+        for (const palabra of palabras ) {
+           palabraAretornar &#x3D; palabraAretornar.concat(&#x27; &#x27; , palabra);
+        }
+         return palabraAretornar;
+       }
+      return text;
+    }
+  }
+</code></pre>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+           </div>
+       </div>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script>var COMPODOC_CURRENT_PAGE_DEPTH = 1;</script>
+
+       <script src="../js/search/search.js"></script>
+       <script src="../js/search/lunr.min.js"></script>
+       <script src="../js/search/search-lunr.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+       <script src="../js/search/search_index.js"></script>
+
+    </body>
+</html>

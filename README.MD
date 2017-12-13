@@ -1,4 +1,5 @@
 # ng-neo-pipes
+Collectios of pipes for Angular
 
 ## Installation
 
